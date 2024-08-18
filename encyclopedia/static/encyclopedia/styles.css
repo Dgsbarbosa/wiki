@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: white;
+    width: 90vw;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 50vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+
+
+li {
+    color: blueviolet;
+    list-style: none;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.list_entries {
+    display: inline-grid;
+    gap: 5px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.list_entries div {
+    display: flex;
+    
+
+}
+
+.list_entries a {
+    text-decoration: none;
+
+}
+
+.item_list_entries {
+    color: rgb(0, 0, 0);
+
+
+}
+
+.list_entries:hover{
+    transform: scale(1.05);
+}
+.error_message {
+    color: red;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea,
+button,
+input {
+    width: 300px;
+}

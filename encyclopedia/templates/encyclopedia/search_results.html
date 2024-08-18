@@ -1,0 +1,22 @@
+
+{% extends 'encyclopedia/layout.html' %}
+
+{% block title %}
+Results
+{% endblock %}
+
+{% block body %}
+
+    <h1>  Results </h1>     
+
+    <ul>
+    {% for entry in entries %}
+    <a href="{% url 'encyclopedia:get_title' entry %}"><li>{{ entry}}</li></a>
+    {% endfor %}
+
+</ul>
+
+{% if error_message %}
+<h2>{{ error_message }}</h2>
+{% endif %}
+{% endblock %} 
